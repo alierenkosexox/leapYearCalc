@@ -11,16 +11,16 @@ public class Main {
         if (year % 4 == 0) {
             if (year % 100 == 0) {
                 if (year % 400 == 0) {
-                    System.out.println(year + "yılı artık yıldır");
+                    System.out.println(year + "  yılı artık yıldır");
                 } else {
-                    System.out.println(year + "yılı artık yıl değildir.");
+                    System.out.println(year + "  yılı artık yıl değildir.");
                 }
             } else {
-                System.out.println(year + "yılı artık yılldır.");
+                System.out.println(year + "  yılı artık yılldır.");
             }
 
         } else {
-            System.out.println(year + "artık yıl değildir");
+            System.out.println(year + "  artık yıl değildir");
         }
     }
 } // Ali Eren KÖSE 23/02/2024 05:13
